@@ -1,0 +1,188 @@
+.home {
+  background: #F0F0F0;
+}
+
+.home header {
+  color: #FAFAFA;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/code.png');
+  background-size: 100% auto;
+  text-align: center;
+  padding-top: 8em;
+}
+
+.home header img {
+  max-width: 15vw;
+  height: auto;
+}
+
+.home header h1 {
+  margin: 0;
+}
+
+.home nav {
+  margin-top: 6em;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.home nav > a {
+  padding: 1em;
+  transition: 0.5s;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.home nav > a:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.home main {
+  width: 90%;
+  max-width: 65em;
+  margin: auto;
+}
+
+.home h3,
+.home h4,
+.home h5,
+.home h6 {
+  font-size: 1.3rem;
+  margin: 2em 0;
+}
+
+.experience > div,
+.projects > div,
+.about > div,
+.philosophy > div {
+  flex-basis: 50%;
+  padding: 1em;
+}
+
+.experience > div:first-of-type > div {
+  border: 1px solid #DDD;
+  padding: 1em;
+  margin-bottom: 0.5em;
+  background: #FAFAFA;
+  line-height: 1.5em;
+}
+
+.experience > div:first-of-type > div ul {
+  padding-left: 0.75em;
+  font-size: 0.9em;
+}
+
+.experience strong,
+.experience em {
+  display: block;
+  font-size: 1.1em;
+}
+
+.experience em {
+  font-size: 0.9em;
+}
+
+.experience span {
+  margin-top: 0.5em;
+}
+
+.home .repo {
+  border: 1px solid #DDD;
+  padding: 1em;
+  margin: 0.25em;
+}
+
+.home .repo > strong {
+  font-size: 1.1em;
+}
+
+.home .repo > em {
+  font-size: 0.9em;
+}
+
+.home .repo > a {
+  text-decoration: underline;
+}
+
+.home .repo > * {
+  display: block;
+}
+
+.home .contact {
+  padding: 2em 0;
+  background: #141475;
+  color: #FAFAFA;
+  justify-content: center;
+  text-align: center;
+}
+
+.home .contact form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  max-width: 35em;
+  margin: auto;
+}
+
+.home .contact form input {
+  padding: 0.75em 0.5em;
+  background: #FFF;
+  font-size: 1.1em;
+  margin: 1em auto;
+  font-family: sans-serif;
+}
+
+.home .contact form textarea {
+  padding: 0.75em 0.5em;
+  background: #FFF;
+  font-size: 1.1em;
+  margin: 1em auto;
+  height: 10em;
+  font-family: sans-serif;
+}
+
+.home .contact form button {
+  background: #222;
+  color: #FFF;
+  font-size: 1.1em;
+  padding: 0.75em 0.5em;
+  font-weight: bold;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.home .contact form button:hover {
+  background: #000;
+}
+
+.home .contact form > * {
+  width: 100%;
+}
+
+.home .contact h6 {
+  color: #FAFAFA;
+}
+
+.home footer {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  padding: 2em;
+  background: #141475;
+  color: #FAFAFA;
+  font-weight: bold;
+}
+
+@media (min-width: 55rem) {
+  .experience,
+  .projects,
+  .about,
+  .philosophy {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #DDD;
+    background: #FAFAFA;
+    margin: 1em 0;
+  }
+}
