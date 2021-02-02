@@ -65,7 +65,7 @@ class Home extends React.Component {
                 <span>My main responsibilites include:</span>
                 <ul>
                   <li>Successfully organizing project materials and requirements while working closely with a small team of contracted developers and marketing professionals.</li>
-                  <li>Increased bottom-line with incrase in website conversions for clients while updating UI/UX elements and providing marketing consultation.</li>
+                  <li>Increased bottom-line with more form conversions for clients while updating UI/UX elements and providing marketing consultation.</li>
                   <li>Engaging clients with cutting-edge web technologies including Accelerated Mobile Pages (AMP) and Progressive Web Apps (PWA) to lower pagespeed scores.</li>
                   <li>Consulting on usage of analytics and marketing tools to continue data-driven development.</li>
                 </ul>
