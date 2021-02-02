@@ -4,11 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "pm2": "export NODE_ENV=production && pm2 start npm --name \"website\" -- run dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
     "next": "10.0.6",
+    "pm2": "^4.5.4",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "slack": "^11.0.2"
