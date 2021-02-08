@@ -178,6 +178,10 @@ class Home extends React.Component {
                     <td><Rank i={ 9 } /></td>
                   </tr>
                   <tr>
+                    <td>Laravel (Symphony)</td>
+                    <td><Rank i={ 9 } /></td>
+                  </tr>
+                  <tr>
                     <td>MySQL</td>
                     <td><Rank i={ 8 } /></td>
                   </tr>
