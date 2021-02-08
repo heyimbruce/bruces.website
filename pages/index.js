@@ -62,12 +62,37 @@ class Home extends React.Component {
                 <em>Briine, LLC</em>
                 <em>2020 - 2021</em>
 
-                <span>My main responsibilites include:</span>
+                <span>My responsibilites have included:</span>
                 <ul>
-                  <li>Successfully organizing project materials and requirements while working closely with a small team of contracted developers and marketing professionals.</li>
-                  <li>Increased bottom-line with more form conversions for clients while updating UI/UX elements and providing marketing consultation.</li>
-                  <li>Engaging clients with cutting-edge web technologies including Accelerated Mobile Pages (AMP) and Progressive Web Apps (PWA) to lower pagespeed scores.</li>
-                  <li>Consulting on usage of analytics and marketing tools to continue data-driven development.</li>
+                  <li>Successfully organizing project materials  and requirements while working closely with a small team of contracted developers and marketing professionals.</li>
+                  <li>Providing consultation for increasing bottom-line with higher conversions for clients while updating UI/UX elements.</li>
+                  <li>Engaging clients with cutting-edge web technologies such as Accelerated Mobile Pages (AMP) and Progressive Web Apps (PWA) to lower page speed.</li>
+                  <li>Consulting on usage of analytics and marketing tools to continue data-driven decision making on future development.</li>
+                </ul>
+              </div>
+
+              <div>
+                <strong>Web Consultant</strong>
+                <em>Vantage Mobility International</em>
+                <em>2020 - 2021</em>
+
+                <span>During this time I:</span>
+                <ul>
+                  <li>Provided development and technical support and consulting services to help transition the company to a new development flow following my leave at AMS Vans.</li>
+                  <li>Provided technical feedback and QA for in-house development team.</li>
+                </ul>
+              </div>
+
+              <div>
+                <strong>Financial Backend Developer</strong>
+                <em>BitPay, Inc</em>
+                <em>2019-2019</em>
+
+                <span>In my short time at BitPay I:</span>
+                <ul>
+                  <li>Worked with the financial team to produce reporting tools that meet the ever-changing requirements of a payment processor.</li>
+                  <li>Provided quality code QA and review for various members of the team.</li>
+                  <li>Ensured proper server/client relationship in cases where API methods could cause server stresses.</li>
                 </ul>
               </div>
 
@@ -79,21 +104,8 @@ class Home extends React.Component {
                 <span>My work at AMS included:</span>
                 <ul>
                   <li>Establishing internal data structures and processing flows to keep members across the entire company running smoothly.</li>
-                  <li>Multiple website redevelops and redesigns while decreasing pagespeed and lowering bounce rates.</li>
+                  <li>Multiple website redevelops and redesigns while decreasing page speed and lowering bounce rates.</li>
                   <li>Implementing flows to allow marketing professionals at the company to take on various goals for pushing conversions higher while increasing customer success.</li>
-                </ul>
-              </div>
-
-              <div>
-                <strong>Node.JS Financial Developer</strong>
-                <em>BitPay</em>
-                <em>2019-2019</em>
-
-                <span>In my short time at BitPay I:</span>
-                <ul>
-                  <li>Worked with financial team to produce reporting tools that meet the ever-changing requirements of a payment processor.</li>
-                  <li>Provided quality code QA and review for various members of the team.</li>
-                  <li>Ensured proper server/client relationship in cases where API methods could cause server stresses.</li>
                 </ul>
               </div>
 
@@ -106,6 +118,19 @@ class Home extends React.Component {
                 <ul>
                   <li>Worked closely with database modeling, project management, and became more comfortable with goal expectation and project timescale.</li>
                   <li>Began learning advanced DevOps with Express and various precursors to the JAM stack, which later would send me to React/NextJS.</li>
+                </ul>
+              </div>
+
+              <div>
+                <strong>Contract Freelance Developer</strong>
+                <em>Elance, Upwork</em>
+                <em>2015 - 2016</em>
+
+                <span>I spent time learning to:</span>
+                <ul>
+                  <li>Understand client requirements, provide feedback and constructive QA sessions to increase project success.</li>
+                  <li>Provide marketable UI/UX experiences for consumer-level web applications.</li>
+                  <li>Create storyboards and score tasks for collaborative workspaces.</li>
                 </ul>
               </div>
 
